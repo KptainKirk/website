@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Page Web</title>
+    <meta name="description" content="Bienvenue sur ma page web personnelle">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <h1>Mon Site Web</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="accueil" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>Bienvenue sur mon site</h2>
+                    <p>Une page web moderne et responsive créée avec HTML, CSS et JavaScript</p>
+                    <button class="cta-button">En savoir plus</button>
+                </div>
+                <div class="hero-image">
+                    <div class="placeholder-image">
+                        <span>🎨</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="apropos" class="about">
+            <div class="container">
+                <h2>À propos</h2>
+                <div class="about-grid">
+                    <div class="about-card">
+                        <div class="card-icon">🚀</div>
+                        <h3>Innovation</h3>
+                        <p>Nous créons des solutions innovantes pour répondre à vos besoins.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon">💡</div>
+                        <h3>Créativité</h3>
+                        <p>Notre équipe créative transforme vos idées en réalité.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon">🎯</div>
+                        <h3>Excellence</h3>
+                        <p>Nous visons l'excellence dans tout ce que nous faisons.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <h2>Nos Services</h2>
+                <div class="services-grid">
+                    <div class="service-item">
+                        <h3>Développement Web</h3>
+                        <p>Sites web modernes et responsives</p>
+                    </div>
+                    <div class="service-item">
+                        <h3>Design UI/UX</h3>
+                        <p>Interfaces utilisateur intuitives</p>
+                    </div>
+                    <div class="service-item">
+                        <h3>Consultation</h3>
+                        <p>Conseils en stratégie digitale</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Informations de contact</h3>
+                        <p>📧 contact@monsite.com</p>
+                        <p>📱 +33 1 23 45 67 89</p>
+                        <p>📍 Paris, France</p>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Votre email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Votre message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">Envoyer</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Mon Site Web. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
