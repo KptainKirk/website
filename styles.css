@@ -76,7 +76,7 @@ body {
 /* Hero Section */
 .hero {
     padding: 120px 0 80px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #eacb66 0%, #a2a24b 100%);
     color: white;
     min-height: 100vh;
     display: flex;
